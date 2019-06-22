@@ -1,8 +1,9 @@
 import { Application, Context } from "probot";
+import getConfig from "probot-config";
 
 const createComment = async (context: Context, key: string): Promise<void> => {
 	try {
-		const config = await context.config("botamic.yml");
+		const config = await getConfig(context, "botamic.yml");
 
 		if (config && config.firstTimer && config.firstTimer[key]) {
 			context.github.issues.createComment(
