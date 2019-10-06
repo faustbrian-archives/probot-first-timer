@@ -69,7 +69,7 @@
 		"@types/jest": "24.0.18",
 		"@types/nock": "10.0.3",
 		"@types/node": "12.7.11",
-		"@types/prettier": "1.18.0",
+		"@types/prettier": "1.18.3",
 		"@types/rimraf": "2.0.2",
 		"@typeskrift/tsconfig": "0.1.2",
 		"@typeskrift/tslint": "0.1.5",
