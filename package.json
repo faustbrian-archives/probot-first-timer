@@ -63,7 +63,7 @@
 	"dependencies": {
 		"@botamic/toolkit": "0.3.0",
 		"@hapi/joi": "16.1.8",
-		"probot": "9.8.0"
+		"probot": "9.8.1"
 	},
 	"devDependencies": {
 		"@types/jest": "24.0.25",
